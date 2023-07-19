@@ -1,0 +1,30 @@
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.text-align{
+    text-align: center;
+}
+.w-50{
+    width: 50%;
+}
+.w-100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+.bg-purple{
+    background-color: purple;
+}
