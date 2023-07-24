@@ -1,0 +1,53 @@
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-me_box--socials_item{
+    margin: 0 auto;
+}
+.about-me_box--socials_item-ul_1,
+.about-me_box--socials_item-ul_2
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.about-me_box--socials_item-ul_2{
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-me_box--socials_item-ul_1 li
+{
+    margin: 10px 0;
+}
+
+
+.about-me_box--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 20px;
+}
+.about-me_box--content div{
+    margin: 15px 0;
+}
+.about-me_box--content div p{
+    text-align: right;
+    line-height: 30px;
+}

@@ -9,11 +9,34 @@
 .justify-around{
     justify-content: space-around;
 }
+.column{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: end;
+}
 .text-align{
     text-align: center;
 }
+.img-responsive{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.justify-txt{
+    text-align: justify;
+}
 .w-50{
     width: 50%;
+}
+.w-70{
+    width: 70%;
+}
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
 }
 .w-100{
     width: 100%;
@@ -27,4 +50,10 @@
 }
 .bg-purple{
     background-color: purple;
+}
+.text-dark{
+    color: #010101;
+}
+.txt-right{
+    text-align: right;
 }

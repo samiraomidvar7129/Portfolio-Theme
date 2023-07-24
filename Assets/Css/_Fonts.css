@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/Yekan.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('../fonts/Vazir.woff2') format('woff2'), /* Super Modern Browsers */
+           url('../fonts/Yekan.woff') format('woff'), /* Pretty Modern Browsers */
+           url('../fonts/Yekan.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('../fonts/Yekan.svg#svgYekan') format('svg'); /* Legacy iOS */
+  
+  }
