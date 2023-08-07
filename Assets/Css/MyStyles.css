@@ -54,7 +54,6 @@ ol,ul,li{
 }
 .item4{
    grid-column: 1/2;
-  background-color: rgb(18, 235, 18);
 }
 .item5{
   grid-column: 1/2;

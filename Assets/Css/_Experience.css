@@ -2,4 +2,177 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.Experience-container-left{
+    width: 370px;
+    height: 100%;
+    padding: 20px;
+}
+
+.Experience-container-left h5{
+    letter-spacing: 1px;
+    margin:20px 10px 5px 0;
+    font-size: 14px;
+}
+.progressBar{
+    background-color: #ccc;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.progressBar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+.progressBar div span{
+    height:25px;
+    width:25px;
+    border-radius: 50%;
+    background-color: #222;
+    float: right;
+    margin: -10px 0 0 0;
+    color: #fff;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+    background-color: #e91e63;
+    animation: html 3s linear forwards;
+}
+.css{
+    background-color: #3249f4;
+    animation: css 3s linear forwards;
+}
+
+.Javascript{
+    background-color: #00bcb4;
+    animation: Javascript
+        3s linear forwards;
+}
+
+.React{
+    background-color: #ffeb3b;
+    animation: React 3s linear forwards;
+}
+
+.Bootsrap{
+    background-color: #9c27b0;
+    animation: Bootsrap 3s linear forwards;
+}
+
+.Materialize{
+    background-color: #f76d3b;
+    animation: Materialize 3s linear forwards;
+}
+
+.git{
+    background-color: #46dfc6;
+    animation: git 3s linear forwards;
+}
+
+
+
+.html span{
+    border: 1px solid #e91e63 ;
+}
+
+.css span{
+    border: 1px solid #3249f4 ;
+}
+.Javascript span{
+    border: 1px solid #00bcb4 ;
+}
+.React span{
+    border: 1px solid #ffeb3b ;
+}
+.Bootsrap span{
+    border: 1px solid #9c27b0 ;
+}
+.Materialize span{
+    border: 1px solid #f76d3b ;
+}
+.git span{
+    border: 1px solid #46dfc6 ;
+}
+
+
+
+/* KeyFrames*/
+
+
+@keyframes html{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Javascript{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes React{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes Bootsrap{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes Materialize{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes git{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.Experience-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+.Experience-container-right-item{
+   width: 100%;
+   height: 130px;
+   border-radius: 20px;
+   border: 1px solid pink;
+   margin-top: 20px;
 }

@@ -54,6 +54,9 @@
 .text-dark{
     color: #010101;
 }
+.bg-darkred{
+    background-color: darkred;
+}
 .txt-right{
     text-align: right;
 }
