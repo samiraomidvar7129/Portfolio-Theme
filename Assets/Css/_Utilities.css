@@ -32,6 +32,7 @@
 .w-70{
     width: 70%;
 }
+
 .w-40{
     width: 40%;
 }
@@ -59,4 +60,7 @@
 }
 .txt-right{
     text-align: right;
+}
+.my-5{
+    margin: 5px 0;
 }

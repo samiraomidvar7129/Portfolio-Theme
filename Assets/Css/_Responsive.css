@@ -1,5 +1,6 @@
-@media screen and (max-width:768px) {
-    #header,.about-me{
+@media screen and (max-width:850px) {
+    
+    #header,.about-me,.Experience-andـskills{
         display: flex;
         flex-direction: column-reverse;
     }
@@ -22,5 +23,32 @@
     }
     .about-me_box--socials{
         display: none;
+    }
+    .Experience-and_skills--box_left,
+    .Experience-and_skills--box_right,
+    .Experience-container-right-item
+
+    {
+        width: 100%;
+       
+    }
+    .Experience-container-left{
+        margin: 0 auto;
+    }
+    .Services_wrapper-box--item{
+     width:90%;
+     margin-left:30px ;
+    }
+.resume-wrapper-box{
+    display: flex;
+}
+   
+   
+}
+@media screen and (max-width:560px){
+ .resume-wrapper-box-img{
+        width: 100%;
+        height: 400px;
+        margin: 10px 0 0 50px ;
     }
 }

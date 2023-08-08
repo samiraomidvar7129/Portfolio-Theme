@@ -14,8 +14,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid pink;
-    border-bottom: 1px solid pink;
+    border-top: 1px solid rgb(245, 141, 158);
+    border-bottom: 1px solid rgb(240, 145, 161);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -31,8 +31,11 @@
     align-items: center;
 }
 
-.about-me_box--socials_item-ul_1 li
+.about-me_box--socials_item-ul_1 li,
+.about-me_box--socials_item-ul_2
+    
 {
+    font-size: 14px ;
     margin: 10px 0;
 }
 
@@ -47,7 +50,12 @@
 .about-me_box--content div{
     margin: 15px 0;
 }
+.about-me_box--content div h2{
+    font-size: 18px;
+}
+
 .about-me_box--content div p{
-    text-align: right;
     line-height: 30px;
+    font-size: 12px;
+    text-align: right;
 }
