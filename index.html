@@ -5,14 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samira-Omidvar</title>
     <link rel="icon" href="./Assets/Img/mask.jpg">
+    <script>
+      function newBg(bg){
+    document.bgColor=bg
+}
+    </script>
     <!-- Import FontAwesome File -->
     <link rel="stylesheet" href="./Assets/Libs/fontawesome-pro-5.15.3-web/css/all.min.css">
 
     <link rel="stylesheet" href="./Assets/Css/MyStyles.css" />
   </head>
   <body >
+    
+   <div class="theme">
+    <form>
+      <input type="button" class=" btn btn1"  onclick="newBg('#3498db')">
+      <input type="button" class=" btn btn2"  onclick="newBg('#ff1756')">
+      <input type="button" class=" btn btn3"  onclick="newBg('#1cb65d')">
+      <input type="button" class=" btn btn4"  onclick="newBg('#FFCACC')">
+      <input type="button" class=" btn btn5"  onclick="newBg('#f4b932')">
+    </form>
+</div>
     <div class="container">
-      <div class="item1">
+      <div class="item1" id="Home">
         <header class="header" id="header">
             <div class="header-content_box w-50 ">
                 <div class="header-content_box--item column">
@@ -49,10 +64,23 @@
         
         </header>
       </div>
-      <div class="item2">
-       منو
+      <div class="item2" id="Menu">
+       <aside class="sidebar-menu-wrapper">
+        <div class="logo">
+          <img src="./Assets/Img/PNG/logo.png" width="90px" height="40px" alt="">
+        </div>
+        <nav class="sidebar-menu-wrapper_nav">
+        <ul class="sidebar-menu-wrapper_ul">
+          <li><a href="#Home">خانه</a></li>
+          <li><a href="#Services" >خدمات</a></li>
+          <li><a href="#Resume" >رزومه</a></li>
+          <li><a href="#About" >درباره من</a></li>
+          <li><a href="#Contact">ارتباط با من</a></li>
+        </ul>
+        </nav>
+       </aside>
       </div>
-      <div class="item3">
+      <div class="item3" id="About">
         <main class="about-me">
             <div class="about-me_box--socials w-50">
                 <div class="about-me_box--socials_item w-50 ">
@@ -82,7 +110,7 @@
             </div>
            </main>
       </div>
-      <div class="item4 ">
+      <div class="item4 " id="Experience">
         <main class="Experience-andـskills">
           <div class="Experience-and_skills--box_left  ">
             <div class="Experience-and_skills--box_left-item ">
@@ -164,7 +192,7 @@
          </div>
         </main>
       </div>
-      <div class="item5">
+      <div class="item5" id="Services">
         <main class="Services_wrapper">
           <h3 class="txt-right"> خدمات من</h3>
            <div class="Services_wrapper-box">
@@ -209,10 +237,10 @@
 
         </main>
       </div>
-      <div class="item6">
+      <div class="item6" id="Resume">
         <main class="Resume-wrapper">
           <h3 class="txt-right "> رزومه من</h3>
-           <div class="resume-wrapper-box">
+            <div class="resume-wrapper-box">
             <div class="resume-wrapper-box-img">
               <div class="resume-wrapper-box-front_face">
                 <div class="introduce">
@@ -255,13 +283,22 @@
               </div>
              
             </div>
-           </div>
+           </div> 
         </main>
       </div>
-      <div class="item7">
+      <div class="item7" id="Contact">
         <main class="Contact-us_wrapper">
-          <h3 class="txt-right ">  ارتباط بامن</h3>
-         
+          <h4 class="text-align ">   بیایید تا پروژه شما را مورد بحث قرار دهیم</h4>
+          <div class="Contact-us_wrapper--card">
+            <div class="Contact-us_wrapper--card_icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="Contact-us_wrapper--card_content">
+              <h4>با ما در ارتباط باشید  </h4>
+              <h5>تیم من برای کمک به شما اینجاست </h5>
+              <h6><a href="mailto:somdr0889@gmail.com?subject=Feedback&body=Message">somdr0889@gmail.com</a></h6>
+            </div>
+          </div>
         </main>
       </div>
       <div class="item8">8</div>
@@ -278,5 +315,6 @@
 
     <script src="./Assets/Libs/fontawesome-pro-5.15.3-web/js/all.min.js"></script>
     <script src="./Assets/Libs/fontawesome-pro-5.15.3-web/js/"></script>
+    <script src="./Assets/JS/MyScript.js"></script>
   </body>
 </html>

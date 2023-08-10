@@ -1,19 +1,13 @@
 @import './_Fonts.css';
 @import './_Utilities.css';
 @import './_Header.css';
+@import './_Menubar.css';
 @import './_About.css';
 @import './_Experience.css';
 @import './_Services.css';
 @import './_Resume.css';
+@import './_Contact-Us.css';
 @import './_Responsive.css';
-
-
-
-
-
-
-
-
 
 
 *,*:after,*::before{
@@ -34,11 +28,15 @@ ol,ul,li{
     list-style-type: none;
 }
 body,html{
+  scroll-behavior: smooth;
   font-size: 16px;
 }
 /* --------------------------> */
 
 /* grids */
+
+
+
 
 .container{
   display: grid;
@@ -52,11 +50,14 @@ body,html{
 }
 .item2{
   grid-column: 2/3;
-  background-color:pink;
+  grid-row: 1/8;
+  background-color:#fff;
+  position: fixed;
+  top: 0;
+  right: 0;bottom: 0;
 }
 .item3{
   grid-column: 1/2;
-  background-color: pink;
 }
 .item4{
    grid-column: 1/2;
