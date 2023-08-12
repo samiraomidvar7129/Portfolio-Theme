@@ -14,13 +14,20 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid rgb(245, 141, 158);
-    border-bottom: 1px solid rgb(240, 145, 161);
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
+}
+.about-me_box--socials_item-ul_1 li:hover,
+.about-me_box--socials_item-ul_2 li:hover{
+    border-radius:10px;
+    width: 100%;
+    height: 100%;
+background-color: pink;
+transition: 1s ease;
 }
 .about-me_box--socials_item-ul_2{
     margin-top: 10px;
