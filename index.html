@@ -6,11 +6,7 @@
     <title>Samira-Omidvar</title>
     <link rel="icon" href="./Assets/Img/mask.jpg">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script>
-      function newBg(bg){
-    document.bgColor=bg
-}
-    </script>
+
     <!-- Import FontAwesome CDN -->
     <link rel="stylesheet" href="./Assets/Libs/fontawesome-pro-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="./Assets/Css/MyStyles.css" />
@@ -68,8 +64,30 @@
       </div>
       <div class="item2" id="Menu">
        <aside class="sidebar-menu-wrapper">
-        <div class="logo">
-          <img src="./Assets/Img/PNG/logo.png" width="90px" height="40px" alt="">
+        <div class="card-portfolio">
+          <div class="card-portfolio_content">
+            <div class="card-portfolio_content--imgBox">
+              <img src="./Assets/Img/samira.jpg" width="30" height="30" alt="">
+            </div>
+            <h6>سمیرا امیدوار<br><span>فرانت اند دولوپر</span></h6>
+          </div>
+          <ul class="navigation">
+            <li><a href="#">ویرایش
+              <i class="fas fa-user ico"></i>
+            </a></li>
+            <li><a href="#">اینباکس
+            </a></li>
+            <li><a href="#">تنظیمات
+              <i class="fas fa-chatbox ico"></i>
+            </a></li>
+            <li><a href="#">پشتیبانی
+              <i class="far fa-support ico"></i>
+            </a></li>
+            <li><a href="#">خروج</a></li>
+          </ul>
+          <div class="toggler">
+            <i class="fas fa-chevron-down toggler-icon"></i>
+          </div>
         </div>
         <nav class="sidebar-menu-wrapper_nav">
         <ul class="sidebar-menu-wrapper_ul">
@@ -116,11 +134,11 @@
             <div class="about-me_box--content w-50">
                 <div> <h3>درباره من</h3></div>
                 <div><h5>  من سمیرا هستم</h5></div>
-                <div><h2>من برای انجام پروژه ی شما در دسترس هستم </h2></div>
+                <div><h2>همیشه برای انجام پروژه ی شما در دسترس هستم </h2></div>
                 <div>
                     <p class="justify-txt ">
-                      متولد 1371 ساکن در مشهد . ما طراحی روی صفحه را برای وب‌سایت‌ها و برنامه‌ها و همچنین اجرای جلویی ارائه می‌کنیم.
-                       ما به دنبال طیف گسترده ای از عبارات و کدهای بهتر هستیم    
+                      متولد 1371 ساکن در مشهد . من طراحی روی صفحه را برای وب‌سایت‌ها و برنامه‌ها و همچنین اجرای جلویی ارائه می کنم.
+                       من به دنبال طیف گسترده ای از عبارات و کدهای بهتر هستم 
                     </p>
                 </div>
             </div>
@@ -391,7 +409,7 @@
                 </ul>
               </div>
               <div class="footer-wrapper_item--img_socials-copy-text">
-                <h6 class="mt-10">© کپی رایت 1402, تمامی حقوق محفوظ است</h6>
+                <h6 class="mt-10"> کپی رایت 1402, تمامی حقوق محفوظ است &copy;</h6>
               </div>
             </div>
          </div>
@@ -401,13 +419,21 @@
 
 
 
-
-
-
-
-
-
     <script src="./Assets/Libs/fontawesome-pro-5.15.3-web/js/all.min.js"></script>
     <script src="./Assets/JS/MyScript.js"></script>
+    <script>
+      // Theme
+      function newBg(bg){
+    document.bgColor=bg}
+
+    // Toggler
+    const cardPortfolio=document.querySelector('.card-portfolio');
+    const toggler=document.querySelector('.toggler');
+    toggler.onclick=function(){
+      cardPortfolio.classList.toggle('active')
+    }
+
+
+    </script>
   </body>
 </html>

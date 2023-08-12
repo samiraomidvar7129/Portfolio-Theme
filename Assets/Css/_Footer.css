@@ -9,23 +9,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-right: 80px;
 }
 .footer-wrapper_item--img img{
     border-radius: 100%;
 }
-.footer-wrapper_item--img_socials
-{
+
+.footer-wrapper_item--img_socials{
     margin-top: 40px;
 }
+
 .footer-wrapper_item--img_socials-link a{
     display: inline-block;
     width: 40px;
     height: 40px;
     background-color: pink;
-    padding: 5px;
+    padding: 10px 0 0 8px;
     border-radius: 10px;
-    padding-left: 7px;
+
+}
+.footer-wrapper_item--img_socials-link a:hover{
+    background-color:palevioletred;
+    transform: rotate(20deg);
+    transition: 0.5s ease;
 }
 .footer-wrapper_item--img_socials-copy-text{
-    margin-top: 20px;
+    margin-top: 10px;
+    color: #a6a5a5;
 }

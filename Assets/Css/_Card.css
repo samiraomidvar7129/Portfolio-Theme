@@ -1,0 +1,85 @@
+.card-portfolio{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+}
+.card-portfolio.active{
+    height: 260px;
+
+}
+.card-portfolio_content{
+    display: flex;
+    align-items: center;
+}
+.card-portfolio_content--imgBox{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card-portfolio_content--imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-portfolio_content h6{
+    margin-left: 10px;
+}
+.card-portfolio_content h6 span{
+    font-size: 8px;
+    color: #999;
+    font-weight: 400;
+}
+.navigation{
+    position: relative;
+    top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+.navigation li{
+    margin-top: 15px 0;
+}
+.navigation li a{
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin: 10px 0;
+    font-size: 12px;
+    transition: color 0.25s;
+}
+.navigation li a:hover{
+    color: #36b3ff;
+}
+.navigation li a .ico{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.toggler{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+}
+.toggler .toggler-icon{
+    color: #fff;
+    font-size: 12px;
+    transition:transform ease-in-out 0.5s;
+}
+
+.card-portfolio.active .toggler .toggler-icon{
+    transform: rotate(-180deg);
+}

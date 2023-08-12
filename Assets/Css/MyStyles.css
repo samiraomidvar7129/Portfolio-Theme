@@ -2,6 +2,7 @@
 @import './_Utilities.css';
 @import './_Header.css';
 @import './_Menubar.css';
+@import './_Card.css';
 @import './_About.css';
 @import './_Experience.css';
 @import './_Services.css';
@@ -48,6 +49,7 @@ body,html{
   grid-template-rows: auto;
   grid-column-gap: 2px;
   grid-row-gap: 50px;
+  margin-top: 40px;
 }
 .item1 {
  grid-column: 1/2;
@@ -57,8 +59,9 @@ body,html{
   grid-row: 1/8;
   background-color:#fff;
   position: fixed;
-  top: 0;
-  right: 0;bottom: 0;
+  top: 40px;
+  right: 0;
+  bottom: 0;
 }
 .item3{
   grid-column: 1/2;
