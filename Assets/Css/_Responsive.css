@@ -1,11 +1,11 @@
 @media screen and (max-width:850px) {
     
-    #header,.about-me,.Experience-andـskills{
+    #header,.Experience-andـskills{
         display: flex;
         flex-direction: column-reverse;
     }
-    .header-img_box{
-        width: 100%;
+    .header-img_box,.theme{
+        display: none;
     }
     .header-content_box{
         width: 100%;
@@ -21,13 +21,21 @@
      outline: none;
      text-align: right;
     }
+    .about-me_box--content{
+        width: 100%;
+    }
     .about-me_box--socials{
         display: none;
     }
+    .Experience-container-right-item{
+        margin: 20px -100px 0 0 ;
+        width: 85%;
+    }
+    .Experience-container-right-icon{
+        width: 20%;
+    }
     .Experience-and_skills--box_left,
-    .Experience-and_skills--box_right,
-    .Experience-container-right-item
-
+    .Experience-and_skills--box_right
     {
         width: 100%;
        
