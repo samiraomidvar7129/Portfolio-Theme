@@ -1,0 +1,67 @@
+.User-idea_wrapper{
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding: 20px;
+    direction: rtl;  
+}
+.User-idea_wrapper--form form fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid pink;
+    border-radius: 10px;
+}
+.User-idea_wrapper--form form fieldset legend{
+    font-size: 14px;
+    color: #848181;
+    padding: 5px;
+}
+.User-idea_wrapper--form_item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.User-idea_wrapper--form_item--input{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: start;
+}
+.User-idea_wrapper--form_item input{
+    width: 300px;
+
+}
+input[type="text"],textarea{
+    border: none;
+    border: 1px solid pink;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type="text"]:focus ,textarea:focus{
+    border:  1px solid palevioletred;
+    transition: 1s ease;
+}
+textarea{
+    resize: none;
+}
+label{
+    font-size: 12px;
+    color: #a3a1a1;
+}
+.send-btn{
+    padding: 10px;
+    background-color: pink;
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.send-btn:hover{
+    background-color:palevioletred ;
+    color: #fff;
+    transition: 0.5s ease;
+}

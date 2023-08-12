@@ -47,7 +47,7 @@
     top: 70%;
     right: 10px;
     width: 60px;
-    height: 120px;
+    height: 140px;
     background-color: #FFCACC;
     border-radius: 100% 0 0 100%;
     padding: 10px;
@@ -78,6 +78,9 @@
   }
   .btn5{
     background-color: #f4b932;
+  }
+  .btn6{
+    background-color: #fff;
   }
   
   

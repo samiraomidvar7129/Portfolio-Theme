@@ -1,0 +1,28 @@
+.footer{
+    padding: 40px;
+}
+.footer-wrapper_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-wrapper_item--img img{
+    border-radius: 100%;
+}
+.footer-wrapper_item--img_socials
+{
+    margin-top: 40px;
+}
+.footer-wrapper_item--img_socials-link a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 7px;
+}
+.footer-wrapper_item--img_socials-copy-text{
+    margin-top: 20px;
+}

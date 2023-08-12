@@ -19,7 +19,6 @@
     padding: 10px;
     position: relative;
     background-color: #fff;
-   
 }
 .Services_wrapper-box--item::before{
     content: "";
@@ -29,8 +28,8 @@
     transform: rotate(-5deg);
     position: absolute;
     top: -5px;
-    left: -5px;
-    z-index: -1;
+    left: -10px;
+    z-index:-2;
     border-radius: 10px;
     
 }
@@ -44,6 +43,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    color: #ffff;
 }
 
 

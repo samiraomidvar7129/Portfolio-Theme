@@ -147,7 +147,7 @@
         width: 0;
     }
     100%{
-        width: 75%;
+        width: 90%;
     }
 }
 @keyframes Materialize{
@@ -197,6 +197,10 @@
 .Experience-container-right-icon .icon{
     font-size: 30px;
     color: #fff;
+}
+.Experience-container-right-item:hover .Experience-container-right-icon .icon{
+    color: #e91e63;
+    transition: 1s ease;
 }
 .Experience-container-right-item_content{
     display: flex;

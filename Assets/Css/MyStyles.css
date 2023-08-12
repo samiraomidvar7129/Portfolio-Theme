@@ -7,6 +7,8 @@
 @import './_Services.css';
 @import './_Resume.css';
 @import './_Contact-Us.css';
+@import './_User-Idea.css';
+@import './_Footer.css';
 @import './_Responsive.css';
 
 
@@ -23,7 +25,9 @@ a,
 a:active,
 a:hover{
     text-decoration: none;
+    color: #010101;
 }
+
 ol,ul,li{
     list-style-type: none;
 }
@@ -70,13 +74,10 @@ body,html{
 }
 .item7{
  grid-column: 1/2;
-  background-color: rgb(240, 42, 154);
 }
 .item8{
    grid-column: 1/2;
-  background-color: rgb(226, 115, 36);
 }
 .item9{
   grid-column: 1/3;
-  background-color: rgb(101, 216, 234);
 }

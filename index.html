@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samira-Omidvar</title>
     <link rel="icon" href="./Assets/Img/mask.jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script>
       function newBg(bg){
     document.bgColor=bg
 }
     </script>
-    <!-- Import FontAwesome File -->
-    <link rel="stylesheet" href="./Assets/Libs/fontawesome-pro-5.15.3-web/css/all.min.css">
+    <!-- Import FontAwesome CDN -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./Assets/Css/MyStyles.css" />
   </head>
@@ -24,6 +25,7 @@
       <input type="button" class=" btn btn3"  onclick="newBg('#1cb65d')">
       <input type="button" class=" btn btn4"  onclick="newBg('#FFCACC')">
       <input type="button" class=" btn btn5"  onclick="newBg('#f4b932')">
+      <input type="button" class=" btn btn6"  onclick="newBg('#fff')">
     </form>
 </div>
     <div class="container">
@@ -31,22 +33,23 @@
         <header class="header" id="header">
             <div class="header-content_box w-50 ">
                 <div class="header-content_box--item column">
-                    <div>
-                        <h4>سلام من</h4>
+                    <div class="d-flex">
+                      <h4>سلام من</h4>
+                      <img  class="hand-wave" src="./Assets/Img/icons/hand-wave.svg" width="20" height="20" alt="">
                       </div>
                       <div>
-                        <h2>من سمیرا امیدوار هستم</h2>
+                        <h2>  سمیرا &nbsp;<img class="Samira-Omidvar" src="./Assets/Img/samira.jpg" alt="">&nbsp;امیدوار هستم</h2>
                       </div>
-                      <div><h5>من یک توسعه دهنده هستم !</h5></div>
+                      <div><h5> !من یک توسعه دهنده هستم </h5></div>
                       <div>
                         <p class="justify-txt txt-right">
                           من با متخصصان حرفه ای کار میکنم که میخواهند
                            برای خود کسب و کاری
-                          نوین و خلاف راه اندازی کنند و من در این مسیر راهنمای آنها خواهم بود 
+                          نوین و خلاق راه اندازی کنند و من در این مسیر راهنمای آنها خواهم بود 
                       </p>
                       </div>
                       <div class="btn-download-parent" >
-                          <span>
+                                <i class="fa fa-arrow-left arrow-left"></i>
                               <a href="" class="text-dark"  download> دانلود رزومه </a>
                       </div>
                 </div>
@@ -54,8 +57,8 @@
           <div class="header-img_box w-50 ">
             <div class="header-img_box--item  ">
                 <img
-                src="./Assets/Img/img-1.jpg"
-                class="img-responsive"
+                src="./Assets/Img/samira.jpg"
+                class="img-responsive img-portfolio"
                 alt="my-portfolio"/>
                 <img src="./Assets/Img/PNG/png-1.png" alt="" class="stain1">
                 <img src="./Assets/Img/PNG/png-1.png" alt="" class="stain2">
@@ -138,7 +141,7 @@
                 <!-- BOOTSRAP -->
                 <h5>Bootsrap</h5>
                 <div class="progressBar">
-                  <div class="Bootsrap"><span>75%</span></div>
+                  <div class="Bootsrap"><span>90%</span></div>
                 </div>
                 <!-- Materialize -->
                 <h5>Materialize</h5>
@@ -159,7 +162,7 @@
             <div class="Experience-container-right">
              <div class="Experience-container-right-item ">
                <div class="Experience-container-right-icon">
-                <i class="fa fa-home icon"></i>
+                <i class="fa-solid fa-bag-shopping icon"></i>
                </div>
                <div class="Experience-container-right-item_content ">
                 <h6 class="my-5">۱۴۰۲ - زمان حال</h6>
@@ -196,25 +199,25 @@
         <main class="Services_wrapper">
           <h3 class="txt-right"> خدمات من</h3>
            <div class="Services_wrapper-box">
-            <div class="Services_wrapper-box--item">
+            <div class="Services_wrapper-box--item"  >
               <span class="my-5"><i class="fa fa-home"></i></span>
               <h4 class="my-5">طراحی وب</h4>
               <p class="my-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
               </p>
             </div>
-            <div class="Services_wrapper-box--item">
+            <div class="Services_wrapper-box--item" >
               <span class="my-5"><i class="fa fa-home"></i></span>
               <h4 class="my-5"> بازاریابی</h4>
               <p class="my-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
               </p>
             </div>
-            <div class="Services_wrapper-box--item">
+            <div class="Services_wrapper-box--item" 
               <span class="my-5"><i class="fa fa-home"></i></span>
               <h4 class="my-5"> ا‌‌پ اندروید</h4>
               <p class="my-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
               </p>
             </div>
-            <div class="Services_wrapper-box--item">
+            <div class="Services_wrapper-box--item" >
               <span class="my-5"><i class="fa fa-home"></i></span>
               <h4 class="my-5"> اپ ویندوز</h4>
               <p class="my-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
@@ -226,15 +229,13 @@
               <p class="my-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
               </p>
             </div>
-            <div class="Services_wrapper-box--item">
+            <div class="Services_wrapper-box--item" >
               <span class="my-5"><i class="fa fa-home"></i></span>
               <h4 class="my-5">مدیریت پروژه </h4>
               <p class="my-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
               </p>
             </div>
-
            </div>
-
         </main>
       </div>
       <div class="item6" id="Resume">
@@ -255,7 +256,7 @@
               </div>
              
             </div>
-            <div class="resume-wrapper-box-img">
+            <div class="resume-wrapper-box-img" >
               <div class="resume-wrapper-box-front_face">
                 <div class="introduce">
                   <img src="./Assets/Img/resume-img/project-2.jpg" alt="">
@@ -287,22 +288,103 @@
         </main>
       </div>
       <div class="item7" id="Contact">
+        <h4 class="txt-right">   بیایید تا پروژه شما را مورد بحث قرار دهیم</h4>
         <main class="Contact-us_wrapper">
-          <h4 class="text-align ">   بیایید تا پروژه شما را مورد بحث قرار دهیم</h4>
           <div class="Contact-us_wrapper--card">
             <div class="Contact-us_wrapper--card_icon">
               <i class="fa fa-home"></i>
             </div>
             <div class="Contact-us_wrapper--card_content">
-              <h4>با ما در ارتباط باشید  </h4>
-              <h5>تیم من برای کمک به شما اینجاست </h5>
-              <h6><a href="mailto:somdr0889@gmail.com?subject=Feedback&body=Message">somdr0889@gmail.com</a></h6>
+              <h4 class="txt-right">با من در ارتباط باشید  </h4>
+              <h5 class="mt-10"> من برای کمک به شما اینجا هستم </h5>
+              <h6 class="mt-10 txt-right"><a class="email-link" href="mailto:somdr0889@gmail.com?subject=Feedback&body=Message">somdr0889@gmail.com</a></h6>
+            </div>
+          </div>
+          <div class="Contact-us_wrapper--card">
+            <div class="Contact-us_wrapper--card_icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="Contact-us_wrapper--card_content">
+              <h4 class="txt-right">ملاقات با من</h4>
+              <h5 class="mt-10 txt-right">به دفتر من بیایید </h5>
+              <h6 class="mt-10 txt-right">مشهد - خیابان مفتح - مفتح ۲۶</h6>
+            </div>
+          </div>
+          <div class="Contact-us_wrapper--card">
+            <div class="Contact-us_wrapper--card_icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="Contact-us_wrapper--card_content">
+              <h4 class="txt-right">تماس با من </h4>
+              <h5 class="mt-10">همیشه راهنمای شما خواهم بود</h5>
+              <h6 class="mt-10 txt-right"><a class="email-link" href="tel:09339610841">09339610841</a></h6>
             </div>
           </div>
         </main>
       </div>
-      <div class="item8">8</div>
-      <div class="item9">9</div>
+      <div class="item8">
+        <h4 class="txt-right"> ایده ای دارید ؟ با من هم تیم شوید </h4>
+        <h6 class="txt-right mt-10 color-gray">بیشتر درباره خود و ایده تان با من گفتگو کنید </h6>
+        <div class="User-idea_wrapper">
+          <div class="User-idea_wrapper--form">
+            <form action="#" method="post">
+              <fieldset>
+                <legend>ایده ی شما</legend>
+                <div class="User-idea_wrapper--form_item">
+                  <div class="User-idea_wrapper--form_item--input">
+                    <label for="user-name">نام شما</label>
+                  <input class="mt-10" type="text" id="user-name" required autocomplete autofocus placeholder=" نام  *">
+                  </div>
+                  <div class="User-idea_wrapper--form_item--input">
+                    <label for="user-email">ایمیل شما</label>
+                  <input class="mt-10" type="text" id="user-email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="" placeholder=" ایمیل  *">
+                  </div>
+                </div>
+                <label class="mt-10" for="description">موضوع</label>
+                <input class="mt-10" type="text" id="description" required placeholder=" موضوع *">
+                <br>
+                <label class="mt-10" for="Message">پیام شما</label>
+                <textarea class="mt-10" cols="30" rows="10" type="text" id="Message" placeholder=" پیام شما *"></textarea>
+
+                <input type="submit" value="ارسال پیام" class="send-btn">
+              </fieldset>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="item9">
+        <footer class="footer">
+         <div class="footer-wrapper">
+            <div class="footer-wrapper_item">
+              <div class="footer-wrapper_item--img">
+                <img src="./Assets/Img/mask.jpg" width="50" height="50" alt="">
+                <h5 class="mt-10">سمیرا  امیدوار</h5>
+              </div>
+              <div class="footer-wrapper_item--img_socials ">
+                 <ul class="footer-wrapper_item--img_socials-link">
+                  <a href="">
+                    <img src="./Assets/Img/icons/icons8-instagram-32.png" width="25" height="25" alt="">
+                  </a>
+                  <a href="">
+                    <img src="./Assets/Img/icons/icons8-pinterest-50.png" width="25" height="25" alt="">
+                  </a>
+                  <a href="">
+                    <img src="./Assets/Img/icons/icons8-facebook-50.png" width="25" height="25" alt="">
+                  </a>
+                  <a href="">
+                    <img src="./Assets/Img/icons/icons8-twitter-50.png" width="25" height="25" alt="">
+                  </a>
+                </ul>
+              </div>
+              <div class="footer-wrapper_item--img_socials-copy-text">
+                <h6 class="mt-10">© کپی رایت 1402, تمامی حقوق محفوظ است</h6>
+              </div>
+
+            </div>
+         </div>
+        </footer>
+      </div>
     </div>
 
 
@@ -313,8 +395,7 @@
 
 
 
-    <script src="./Assets/Libs/fontawesome-pro-5.15.3-web/js/all.min.js"></script>
-    <script src="./Assets/Libs/fontawesome-pro-5.15.3-web/js/"></script>
+    <script src="./Assets/Libs/fontawesome-pro-5.15.3-web/js/fontawesome.min.js"></script>
     <script src="./Assets/JS/MyScript.js"></script>
   </body>
 </html>

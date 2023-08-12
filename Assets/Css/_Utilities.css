@@ -64,3 +64,9 @@
 .my-5{
     margin: 5px 0;
 }
+.mt-10{
+    margin-top: 10px;
+}
+.color-gray{
+    color: rgb(177, 175, 175);
+}
